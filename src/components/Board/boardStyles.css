@@ -1,0 +1,39 @@
+.board{
+    height: auto;
+    width: 600px;
+    background-color: #ffff;
+    border: 2px solid rgb(124, 85, 161);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board p{
+    font-size: 15px;
+    font-family: 'Catamaran',sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.board h4{
+    margin: 0;
+    margin-bottom: 10px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+.options{
+    margin:0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
